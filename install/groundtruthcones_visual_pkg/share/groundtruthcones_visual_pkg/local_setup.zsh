@@ -1,0 +1,1 @@
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/ament_cmake_environment_hooks/local_setup.zsh

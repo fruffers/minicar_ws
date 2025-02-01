@@ -1,0 +1,4 @@
+[01m[K/home/louise-bilous/Coding/minicar_ws/src/groundtruthcones_visual_pkg/src/publish_cone_markers.cpp:[m[K In member function ‘[01m[Kvoid TrackVisualizer::[01;32m[KpublishMarkers[m[K()[m[K’:
+[01m[K/home/louise-bilous/Coding/minicar_ws/src/groundtruthcones_visual_pkg/src/publish_cone_markers.cpp:36:31:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   36 |                 [01;35m[Kmarker.action - visualization_msgs::msg::Marker::ADD[m[K;
+      |                 [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

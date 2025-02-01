@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8780ec5fa0bde90d2cf0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "groundtruthcones_visual_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "groundtruthcones_visual_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groundtruthcones_visual_pkg_uninstall-911dbc445a1d936cc648.json",
+					"name" : "groundtruthcones_visual_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publish_cone_markers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publish_cone_markers-ff00603fea2f1c587319.json",
+					"name" : "publish_cone_markers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2c978da4c7f7ed2cb251.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg",
+		"source" : "/home/louise-bilous/Coding/minicar_ws/src/groundtruthcones_visual_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

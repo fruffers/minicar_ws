@@ -1,0 +1,10 @@
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/uninstall.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/groundtruthcones_visual_pkg_uninstall.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/publish_cone_markers.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/test.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/edit_cache.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/rebuild_cache.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/list_install_components.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/install.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/install/local.dir
+/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/CMakeFiles/install/strip.dir

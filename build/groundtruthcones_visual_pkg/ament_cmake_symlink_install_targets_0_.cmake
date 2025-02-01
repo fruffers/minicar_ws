@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/publish_cone_markers" "TARGETS" "publish_cone_markers" "DESTINATION" "lib/groundtruthcones_visual_pkg")

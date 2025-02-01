@@ -1,0 +1,92 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
+  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+  not set.  The policy's OLD behavior will be used.  When using a URL
+  download, the timestamps of extracted files should preferably be that of
+  the time of extraction, otherwise code that depends on the extracted
+  contents might not be rebuilt if the URL changes.  The OLD behavior
+  preserves the timestamps from the archive instead, but this is usually not
+  what you want.  Update your project to the NEW behavior or specify the
+  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+  robustness issue.
+Call Stack (most recent call first):
+  CMakeLists.txt:6 (FetchContent_Declare)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mgmake[1]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+gmake[2]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+gmake[3]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+gmake[3]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+gmake[3]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[ 11%] [34m[1mCreating directories for 'json-populate'[0m
+[ 22%] [34m[1mPerforming download step (download, verify and extract) for 'json-populate'[0m
+-- Downloading...
+   dst='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'
+   timeout='none'
+   inactivity timeout='none'
+-- Using src='https://github.com/nlohmann/json/releases/download/v3.11.2/json.hpp'
+-- [download 0% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 7% complete]
+-- [download 9% complete]
+-- [download 11% complete]
+-- [download 13% complete]
+-- [download 16% complete]
+-- [download 18% complete]
+-- [download 23% complete]
+-- [download 27% complete]
+-- [download 29% complete]
+-- [download 56% complete]
+-- [download 59% complete]
+-- [download 61% complete]
+-- [download 63% complete]
+-- [download 65% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 70% complete]
+-- [download 72% complete]
+-- [download 74% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 79% complete]
+-- [download 81% complete]
+-- [download 83% complete]
+-- [download 85% complete]
+-- [download 86% complete]
+-- [download 88% complete]
+-- [download 90% complete]
+-- [download 92% complete]
+-- [download 94% complete]
+-- [download 97% complete]
+-- [download 100% complete]
+-- Downloading... done
+-- extracting...
+     src='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'
+     dst='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-src'
+-- extracting... [tar xf]
+CMake Error: Problem with archive_read_open_file(): Unrecognized archive format
+CMake Error: Problem extracting tar: /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar
+-- extracting... [error clean up]
+[31mCMake Error at json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake:40 (message):
+  Extract of
+  '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'
+  failed
+
+[0m
+gmake[3]: *** [CMakeFiles/json-populate.dir/build.make:102: json-populate-prefix/src/json-populate-stamp/json-populate-download] Error 1
+gmake[3]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+gmake[2]: *** [CMakeFiles/Makefile2:83: CMakeFiles/json-populate.dir/all] Error 2
+gmake[2]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+gmake[1]: *** [Makefile:91: all] Error 2
+gmake[1]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[0m
+[31mCMake Error at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1679 (message):
+  Build step for json failed: 2
+Call Stack (most recent call first):
+  /usr/share/cmake-3.28/Modules/FetchContent.cmake:1819:EVAL:2 (__FetchContent_directPopulate)
+  /usr/share/cmake-3.28/Modules/FetchContent.cmake:1819 (cmake_language)
+  /usr/share/cmake-3.28/Modules/FetchContent.cmake:2033 (FetchContent_Populate)
+  CMakeLists.txt:10 (FetchContent_MakeAvailable)
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,95 @@
+[0.008s] Invoking command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg -- -j8 -l8
+[0.029s] [33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):
+[0.029s]   The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is
+[0.029s]   not set.  The policy's OLD behavior will be used.  When using a URL
+[0.029s]   download, the timestamps of extracted files should preferably be that of
+[0.029s]   the time of extraction, otherwise code that depends on the extracted
+[0.029s]   contents might not be rebuilt if the URL changes.  The OLD behavior
+[0.030s]   preserves the timestamps from the archive instead, but this is usually not
+[0.030s]   what you want.  Update your project to the NEW behavior or specify the
+[0.030s]   DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this
+[0.030s]   robustness issue.
+[0.030s] Call Stack (most recent call first):
+[0.030s]   CMakeLists.txt:6 (FetchContent_Declare)
+[0.030s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.030s] [0m
+[1.050s] [0mgmake[1]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.050s] gmake[2]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.050s] gmake[3]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.050s] gmake[3]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.051s] gmake[3]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.051s] [ 11%] [34m[1mCreating directories for 'json-populate'[0m
+[1.051s] [ 22%] [34m[1mPerforming download step (download, verify and extract) for 'json-populate'[0m
+[1.051s] -- Downloading...
+[1.051s]    dst='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'
+[1.051s]    timeout='none'
+[1.051s]    inactivity timeout='none'
+[1.051s] -- Using src='https://github.com/nlohmann/json/releases/download/v3.11.2/json.hpp'
+[1.051s] -- [download 0% complete]
+[1.051s] -- [download 4% complete]
+[1.051s] -- [download 5% complete]
+[1.051s] -- [download 7% complete]
+[1.051s] -- [download 9% complete]
+[1.051s] -- [download 11% complete]
+[1.051s] -- [download 13% complete]
+[1.051s] -- [download 16% complete]
+[1.051s] -- [download 18% complete]
+[1.051s] -- [download 23% complete]
+[1.051s] -- [download 27% complete]
+[1.052s] -- [download 29% complete]
+[1.052s] -- [download 56% complete]
+[1.052s] -- [download 59% complete]
+[1.052s] -- [download 61% complete]
+[1.052s] -- [download 63% complete]
+[1.052s] -- [download 65% complete]
+[1.052s] -- [download 67% complete]
+[1.052s] -- [download 68% complete]
+[1.052s] -- [download 70% complete]
+[1.052s] -- [download 72% complete]
+[1.052s] -- [download 74% complete]
+[1.052s] -- [download 76% complete]
+[1.052s] -- [download 77% complete]
+[1.052s] -- [download 79% complete]
+[1.052s] -- [download 81% complete]
+[1.052s] -- [download 83% complete]
+[1.052s] -- [download 85% complete]
+[1.052s] -- [download 86% complete]
+[1.052s] -- [download 88% complete]
+[1.052s] -- [download 90% complete]
+[1.052s] -- [download 92% complete]
+[1.053s] -- [download 94% complete]
+[1.053s] -- [download 97% complete]
+[1.053s] -- [download 100% complete]
+[1.053s] -- Downloading... done
+[1.053s] -- extracting...
+[1.053s]      src='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'
+[1.053s]      dst='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-src'
+[1.053s] -- extracting... [tar xf]
+[1.053s] CMake Error: Problem with archive_read_open_file(): Unrecognized archive format
+[1.053s] CMake Error: Problem extracting tar: /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar
+[1.053s] -- extracting... [error clean up]
+[1.053s] [31mCMake Error at json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake:40 (message):
+[1.053s]   Extract of
+[1.053s]   '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'
+[1.053s]   failed
+[1.053s] 
+[1.053s] [0m
+[1.053s] gmake[3]: *** [CMakeFiles/json-populate.dir/build.make:102: json-populate-prefix/src/json-populate-stamp/json-populate-download] Error 1
+[1.053s] gmake[3]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.053s] gmake[2]: *** [CMakeFiles/Makefile2:83: CMakeFiles/json-populate.dir/all] Error 2
+[1.053s] gmake[2]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.054s] gmake[1]: *** [Makefile:91: all] Error 2
+[1.054s] gmake[1]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'
+[1.054s] [0m
+[1.054s] [31mCMake Error at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1679 (message):
+[1.054s]   Build step for json failed: 2
+[1.054s] Call Stack (most recent call first):
+[1.054s]   /usr/share/cmake-3.28/Modules/FetchContent.cmake:1819:EVAL:2 (__FetchContent_directPopulate)
+[1.054s]   /usr/share/cmake-3.28/Modules/FetchContent.cmake:1819 (cmake_language)
+[1.054s]   /usr/share/cmake-3.28/Modules/FetchContent.cmake:2033 (FetchContent_Populate)
+[1.054s]   CMakeLists.txt:10 (FetchContent_MakeAvailable)
+[1.054s] 
+[1.054s] [0m
+[1.054s] -- Configuring incomplete, errors occurred!
+[1.054s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.055s] Invoked command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg -- -j8 -l8

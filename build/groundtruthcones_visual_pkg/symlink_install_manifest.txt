@@ -1,0 +1,16 @@
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/lib/groundtruthcones_visual_pkg/publish_cone_markers
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/ament_index/resource_index/package_run_dependencies/groundtruthcones_visual_pkg
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/ament_index/resource_index/parent_prefix_path/groundtruthcones_visual_pkg
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/ament_prefix_path.sh
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/ament_prefix_path.dsv
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/path.sh
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/path.dsv
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.bash
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.sh
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.zsh
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.dsv
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/package.dsv
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/ament_index/resource_index/packages/groundtruthcones_visual_pkg
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/cmake/groundtruthcones_visual_pkgConfig.cmake
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/cmake/groundtruthcones_visual_pkgConfig-version.cmake
+/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/package.xml

@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000339] (groundtruthcones_visual_pkg) JobQueued: {'identifier': 'groundtruthcones_visual_pkg', 'dependencies': OrderedDict()}
+[0.000516] (groundtruthcones_visual_pkg) JobStarted: {'identifier': 'groundtruthcones_visual_pkg'}
+[0.007146] (groundtruthcones_visual_pkg) JobProgress: {'identifier': 'groundtruthcones_visual_pkg', 'progress': 'cmake'}
+[0.007370] (groundtruthcones_visual_pkg) JobProgress: {'identifier': 'groundtruthcones_visual_pkg', 'progress': 'build'}
+[0.007763] (groundtruthcones_visual_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg', '--', '-j8', '-l8'], 'cwd': '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'louise-bilous', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/louise-bilous', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '12845', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ca887e7bc275e24b7cee86ea679dfdf4', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'louise-bilous', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'louise-bilous', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/louise-bilous-ZenBook-UX435EG-UX435EG:@/tmp/.ICE-unix/12845,unix/louise-bilous-ZenBook-UX435EG-UX435EG:/tmp/.ICE-unix/12845', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6c883db6_3680_40c6_ac32_5ad06d8a0abd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.3VD402', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.145', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=ca887e7bc275e24b7cee86ea679dfdf4', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.029202] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1331 (message):\n'}
+[0.029611] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  The DOWNLOAD_EXTRACT_TIMESTAMP option was not given and policy CMP0135 is\n'}
+[0.029704] (groundtruthcones_visual_pkg) StderrLine: {'line': b"  not set.  The policy's OLD behavior will be used.  When using a URL\n"}
+[0.029799] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  download, the timestamps of extracted files should preferably be that of\n'}
+[0.029878] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  the time of extraction, otherwise code that depends on the extracted\n'}
+[0.029963] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  contents might not be rebuilt if the URL changes.  The OLD behavior\n'}
+[0.030043] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  preserves the timestamps from the archive instead, but this is usually not\n'}
+[0.030120] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  what you want.  Update your project to the NEW behavior or specify the\n'}
+[0.030203] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  DOWNLOAD_EXTRACT_TIMESTAMP option with a value of true to avoid this\n'}
+[0.030281] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  robustness issue.\n'}
+[0.030366] (groundtruthcones_visual_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.030444] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  CMakeLists.txt:6 (FetchContent_Declare)\n'}
+[0.030520] (groundtruthcones_visual_pkg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.030596] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099665] (-) TimerEvent: {}
+[0.199937] (-) TimerEvent: {}
+[0.300169] (-) TimerEvent: {}
+[0.400351] (-) TimerEvent: {}
+[0.500594] (-) TimerEvent: {}
+[0.600883] (-) TimerEvent: {}
+[0.701115] (-) TimerEvent: {}
+[0.801367] (-) TimerEvent: {}
+[0.901618] (-) TimerEvent: {}
+[1.001853] (-) TimerEvent: {}
+[1.050604] (groundtruthcones_visual_pkg) StderrLine: {'line': b"\x1b[0mgmake[1]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.050879] (groundtruthcones_visual_pkg) StderrLine: {'line': b"gmake[2]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.050933] (groundtruthcones_visual_pkg) StderrLine: {'line': b"gmake[3]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.050981] (groundtruthcones_visual_pkg) StderrLine: {'line': b"gmake[3]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.051029] (groundtruthcones_visual_pkg) StderrLine: {'line': b"gmake[3]: Entering directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.051075] (groundtruthcones_visual_pkg) StderrLine: {'line': b"[ 11%] \x1b[34m\x1b[1mCreating directories for 'json-populate'\x1b[0m\n"}
+[1.051123] (groundtruthcones_visual_pkg) StderrLine: {'line': b"[ 22%] \x1b[34m\x1b[1mPerforming download step (download, verify and extract) for 'json-populate'\x1b[0m\n"}
+[1.051168] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- Downloading...\n'}
+[1.051223] (groundtruthcones_visual_pkg) StderrLine: {'line': b"   dst='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'\n"}
+[1.051274] (groundtruthcones_visual_pkg) StderrLine: {'line': b"   timeout='none'\n"}
+[1.051332] (groundtruthcones_visual_pkg) StderrLine: {'line': b"   inactivity timeout='none'\n"}
+[1.051379] (groundtruthcones_visual_pkg) StderrLine: {'line': b"-- Using src='https://github.com/nlohmann/json/releases/download/v3.11.2/json.hpp'\n"}
+[1.051426] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 0% complete]\n'}
+[1.051472] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 4% complete]\n'}
+[1.051516] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 5% complete]\n'}
+[1.051562] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 7% complete]\n'}
+[1.051607] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 9% complete]\n'}
+[1.051652] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 11% complete]\n'}
+[1.051697] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 13% complete]\n'}
+[1.051744] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 16% complete]\n'}
+[1.051795] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 18% complete]\n'}
+[1.051842] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 23% complete]\n'}
+[1.051909] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 27% complete]\n'}
+[1.051982] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 29% complete]\n'}
+[1.052053] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 56% complete]\n'}
+[1.052152] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 59% complete]\n'}
+[1.052217] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 61% complete]\n'}
+[1.052261] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 63% complete]\n'}
+[1.052319] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 65% complete]\n'}
+[1.052366] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 67% complete]\n'}
+[1.052409] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 68% complete]\n'}
+[1.052451] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 70% complete]\n'}
+[1.052494] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 72% complete]\n'}
+[1.052536] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 74% complete]\n'}
+[1.052581] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 76% complete]\n'}
+[1.052624] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 77% complete]\n'}
+[1.052667] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 79% complete]\n'}
+[1.052709] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 81% complete]\n'}
+[1.052750] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 83% complete]\n'}
+[1.052795] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 85% complete]\n'}
+[1.052839] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 86% complete]\n'}
+[1.052881] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 88% complete]\n'}
+[1.052924] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 90% complete]\n'}
+[1.052966] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 92% complete]\n'}
+[1.053007] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 94% complete]\n'}
+[1.053055] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 97% complete]\n'}
+[1.053107] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- [download 100% complete]\n'}
+[1.053153] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- Downloading... done\n'}
+[1.053198] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- extracting...\n'}
+[1.053243] (groundtruthcones_visual_pkg) StderrLine: {'line': b"     src='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'\n"}
+[1.053322] (groundtruthcones_visual_pkg) StderrLine: {'line': b"     dst='/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-src'\n"}
+[1.053369] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- extracting... [tar xf]\n'}
+[1.053412] (groundtruthcones_visual_pkg) StderrLine: {'line': b'CMake Error: Problem with archive_read_open_file(): Unrecognized archive format\n'}
+[1.053460] (groundtruthcones_visual_pkg) StderrLine: {'line': b'CMake Error: Problem extracting tar: /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar\n'}
+[1.053504] (groundtruthcones_visual_pkg) StderrLine: {'line': b'-- extracting... [error clean up]\n'}
+[1.053546] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at json-subbuild/json-populate-prefix/src/json-populate-stamp/extract-json-populate.cmake:40 (message):\n'}
+[1.053589] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  Extract of\n'}
+[1.053636] (groundtruthcones_visual_pkg) StderrLine: {'line': b"  '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild/json-populate-prefix/src/archive.tar'\n"}
+[1.053693] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  failed\n'}
+[1.053746] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\n'}
+[1.053791] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.053833] (groundtruthcones_visual_pkg) StderrLine: {'line': b'gmake[3]: *** [CMakeFiles/json-populate.dir/build.make:102: json-populate-prefix/src/json-populate-stamp/json-populate-download] Error 1\n'}
+[1.053881] (groundtruthcones_visual_pkg) StderrLine: {'line': b"gmake[3]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.053925] (groundtruthcones_visual_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/Makefile2:83: CMakeFiles/json-populate.dir/all] Error 2\n'}
+[1.053967] (groundtruthcones_visual_pkg) StderrLine: {'line': b"gmake[2]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.054028] (groundtruthcones_visual_pkg) StderrLine: {'line': b'gmake[1]: *** [Makefile:91: all] Error 2\n'}
+[1.054116] (groundtruthcones_visual_pkg) StderrLine: {'line': b"gmake[1]: Leaving directory '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg/_deps/json-subbuild'\n"}
+[1.054179] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.054236] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /usr/share/cmake-3.28/Modules/FetchContent.cmake:1679 (message):\n'}
+[1.054296] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  Build step for json failed: 2\n'}
+[1.054376] (groundtruthcones_visual_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.054434] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  /usr/share/cmake-3.28/Modules/FetchContent.cmake:1819:EVAL:2 (__FetchContent_directPopulate)\n'}
+[1.054491] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  /usr/share/cmake-3.28/Modules/FetchContent.cmake:1819 (cmake_language)\n'}
+[1.054547] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  /usr/share/cmake-3.28/Modules/FetchContent.cmake:2033 (FetchContent_Populate)\n'}
+[1.054603] (groundtruthcones_visual_pkg) StderrLine: {'line': b'  CMakeLists.txt:10 (FetchContent_MakeAvailable)\n'}
+[1.054660] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\n'}
+[1.054716] (groundtruthcones_visual_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.054774] (groundtruthcones_visual_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.054860] (groundtruthcones_visual_pkg) StderrLine: {'line': b'gmake: *** [Makefile:267: cmake_check_build_system] Error 1\n'}
+[1.055435] (groundtruthcones_visual_pkg) CommandEnded: {'returncode': 2}
+[1.061267] (groundtruthcones_visual_pkg) JobEnded: {'identifier': 'groundtruthcones_visual_pkg', 'rc': 2}
+[1.071751] (-) EventReactorShutdown: {}

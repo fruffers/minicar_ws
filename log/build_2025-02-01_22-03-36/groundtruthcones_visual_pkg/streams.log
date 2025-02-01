@@ -1,0 +1,64 @@
+[0.013s] Invoking command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/louise-bilous/Coding/minicar_ws/src/groundtruthcones_visual_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.108s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.196s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.196s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.414s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.474s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.511s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.552s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.564s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.667s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.670s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.737s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.753s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.835s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.911s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.999s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.000s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/louise-bilous/Coding/minicar_ws/src/groundtruthcones_visual_pkg/include>
+[1.000s] -- Configured cppcheck exclude dirs and/or files: 
+[1.000s] -- Added test 'lint_cmake' to check CMake code style
+[1.002s] -- Added test 'uncrustify' to check C / C++ code style
+[1.002s] -- Configured uncrustify additional arguments: 
+[1.002s] -- Added test 'xmllint' to check XML markup files
+[1.004s] -- Configuring done (1.0s)
+[1.013s] -- Generating done (0.0s)
+[1.016s] -- Build files have been written to: /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg
+[1.024s] Invoked command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/louise-bilous/Coding/minicar_ws/src/groundtruthcones_visual_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg
+[1.025s] Invoking command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg -- -j8 -l8
+[1.074s] [ 50%] [32mBuilding CXX object CMakeFiles/publish_cone_markers.dir/src/publish_cone_markers.cpp.o[0m
+[5.757s] [100%] [32m[1mLinking CXX executable publish_cone_markers[0m
+[5.908s] [100%] Built target publish_cone_markers
+[5.917s] Invoked command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg -- -j8 -l8
+[5.925s] Invoking command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg
+[5.931s] -- Install configuration: ""
+[5.931s] -- Execute custom install script
+[5.931s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/lib/groundtruthcones_visual_pkg/publish_cone_markers
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/ament_index/resource_index/package_run_dependencies/groundtruthcones_visual_pkg
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/ament_index/resource_index/parent_prefix_path/groundtruthcones_visual_pkg
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/ament_prefix_path.sh
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/ament_prefix_path.dsv
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/path.sh
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/environment/path.dsv
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.bash
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.sh
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.zsh
+[5.932s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/local_setup.dsv
+[5.932s] -- Symlinking: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/package.dsv
+[5.940s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/ament_index/resource_index/packages/groundtruthcones_visual_pkg
+[5.940s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/cmake/groundtruthcones_visual_pkgConfig.cmake
+[5.941s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/cmake/groundtruthcones_visual_pkgConfig-version.cmake
+[5.941s] -- Up-to-date symlink: /home/louise-bilous/Coding/minicar_ws/install/groundtruthcones_visual_pkg/share/groundtruthcones_visual_pkg/package.xml
+[5.942s] Invoked command in '/home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/louise-bilous/Coding/minicar_ws/build/groundtruthcones_visual_pkg
